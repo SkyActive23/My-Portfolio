@@ -1,0 +1,42 @@
+:root {
+    --dark-primary: #266ca5; /* Main blue color */
+    --primary-color: #3d7aad; /* Main blue color */
+    --secondary-color: #65a0c5; /* Lighter blue color */
+    --accent-color: #ecf0f3; /* Light gray/blue as an accent */
+    --text-color: #333; /* Dark text color */
+    --background-color: #f5f5f5; /* Light background color */
+  }
+
+nav {
+    background: rgba(0, 0, 0, 0.5);
+    width: max-content;
+    display: block;
+    padding: .07rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--accent-color);
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--dark-primary);
+}

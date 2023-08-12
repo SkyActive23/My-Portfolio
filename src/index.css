@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #3d7aad; /* Main blue color */
+  --secondary-color: #65a0c5; /* Lighter blue color */
+  --accent-color: #ecf0f3; /* Light gray/blue as an accent */
+  --text-color: #333; /* Dark text color */
+  --background-color: #f5f5f5; /* Light background color */
+}
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 2% 7.5% 2% 7.5%;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+
+
+/* Button styles */
+.header .actions .button {
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+ .actions .button.active {
+  background-color: var(--primary-color);
+}
+
+.actions .button:hover {
+  background-color: var(--primary-color);
+}
+
+
+
+
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+hr {
+  border: none;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+
+
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .project-list {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+/* ... (previous styles) */
+
+
+
+

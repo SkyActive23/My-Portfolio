@@ -1,0 +1,69 @@
+/* Header.css */
+:root {
+    --primary-color: #3d7aad;
+    --secondary-color: #65a0c5;
+    --accent-color: #ecf0f3;
+    --text-color: #333;
+    --background-color: #f5f5f5;
+  }
+  
+  .header {
+    background-image: url("../../assets/images/About-Header/AzDesert.jpg");
+    background-size: cover;
+    background-position: center;
+
+    height: 50vh; /* Make the header take the full viewport height */
+  }
+  
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    /* background-color: var(--primary-color); */
+    color: var(--secondary-color);
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+  }
+  
+  /* Additional styles for header components can go here */
+  
+  .actions {
+    margin-top: 1.5rem;
+  }
+  
+  /* .button {
+    Your button styles here
+  } */
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--accent-color);
+    border: 1px solid var(--primary-color);
+    list-style: none;
+    padding: 0.5rem;
+    width: 120px;
+  }
+  
+  .dropdown-menu li {
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    color: var(--text-color);
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
