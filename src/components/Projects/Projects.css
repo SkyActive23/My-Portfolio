@@ -9,7 +9,7 @@
 
 
 .pm-project {
-    border: 1px solid #ccc;
+    border: 0.1rem solid #ccc;
     border-radius: 8px;
     padding: .5rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
