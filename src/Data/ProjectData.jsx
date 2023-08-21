@@ -6,6 +6,7 @@ import apiFlixClientImage from "../assets/images/ProjectImages/ApiFlix-client.pn
 import toDoListImage from "../assets/images/ProjectImages/ToDoList.png";
 import landingPageImage from "../assets/images/ProjectImages/LandingPage.png";
 import javaMovieClientImage from "../assets/images/ProjectImages/JavaMovieClient.png";
+import javaMovieApiImage from "../assets/images/ProjectImages/JavaMovieAPI.png";
 
 const projectData = [
   {
@@ -58,16 +59,16 @@ const projectData = [
     sourceUrl: "https://github.com/SkyActive23/client-movie-api",
   },
   {
-    title: "JavaMovieAPI",
+    title: "Java Movie API",
     technologies: "Java, Maven, Spring Boot, MongoDB, Postman, IntelliJ",
     description:
       "This resting api was created using Java and Spring Boot. This api allows you to use data from library of movies created through MongoDB. ",
-    imageUrl: apiFlixClientImage,
+    imageUrl: javaMovieApiImage,
     demoUrl: "/",
     sourceUrl: "https://github.com/SkyActive23/movies",
   },
   {
-    title: "JavaMovieClient",
+    title: "Java Movie Client",
     technologies:
       "React, HTML, CSS, JavaScript, Bootstrap, Axios, Node.js, MaterialUI",
     description:
