@@ -5,6 +5,7 @@ import apiFlixDBImage from "../assets/images/ProjectImages/ApiFlix-DB.png";
 import apiFlixClientImage from "../assets/images/ProjectImages/ApiFlix-client.png";
 import toDoListImage from "../assets/images/ProjectImages/ToDoList.png";
 import landingPageImage from "../assets/images/ProjectImages/LandingPage.png";
+import javaMovieClientImage from "../assets/images/ProjectImages/JavaMovieClient.png";
 
 const projectData = [
   {
@@ -55,6 +56,25 @@ const projectData = [
     imageUrl: apiFlixClientImage,
     demoUrl: "/",
     sourceUrl: "https://github.com/SkyActive23/client-movie-api",
+  },
+  {
+    title: "JavaMovieAPI",
+    technologies: "Java, Maven, Spring Boot, MongoDB, Postman, IntelliJ",
+    description:
+      "This resting api was created using Java and Spring Boot. This api allows you to use data from library of movies created through MongoDB. ",
+    imageUrl: apiFlixClientImage,
+    demoUrl: "/",
+    sourceUrl: "https://github.com/SkyActive23/movies",
+  },
+  {
+    title: "JavaMovieClient",
+    technologies:
+      "React, HTML, CSS, JavaScript, Bootstrap, Axios, Node.js, MaterialUI",
+    description:
+      "The JavaMovieClient is a client side application that uses API from JavaMovieAPI. Functionality- This client side app allows you to scroll through movies and write a review on a movie. The app also allows the user to watch a trailer of the movie if they are wanting to see what the movie is about.",
+    imageUrl: javaMovieClientImage,
+    demoUrl: "https://java-movie-client.vercel.app/",
+    sourceUrl: "https://github.com/SkyActive23/java-movie-client",
   },
   {
     title: "Todo App",
